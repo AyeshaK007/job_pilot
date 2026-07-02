@@ -1,0 +1,16 @@
+{
+  "mcp": {
+    "insforge": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@insforge/mcp@latest"
+      ],
+      "environment": {
+        "API_KEY": "ik_b20392d1453c763a30b9a757e8490ab9",
+        "API_BASE_URL": "https://3jfyckf3.eu-central.insforge.app"
+      }
+    }
+  }
+}

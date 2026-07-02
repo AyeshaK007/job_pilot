@@ -1,0 +1,6 @@
+Usage: index [options]
+
+Options:
+  --api_key <value>       API Key
+  --api_base_url <value>  API Base URL
+  -h, --help              display help for command
