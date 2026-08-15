@@ -1,40 +1,59 @@
+# JobPilot 🤖
 
-#  Job Pilot — AI-Agent Powered Job Application & Analytics Platform
+**JobPilot is a job-search product prototype designed to help developers discover relevant roles, understand job fit, and manage applications from one place.**
 
-Job Pilot is an advanced full-stack application that leverages cloud-managed AI browser automation agents to find, match, and optimize the job application process for developers. Rather than scraping data through brittle selectors, it dynamically navigates real browsers across the web to research organizations and cross-analyze profiles.
+The project focuses on the product experience: job discovery, profile-based matching, company research concepts, and application tracking.
 
-##  Key Features
-* **Browserbase & Stagehand Automation:** Spawns actual managed cloud browsers via Browserbase, driving agents through pages utilizing natural language logic with Stagehand to pull structural data rather than using fragile CSS selectors.
-* **Resume Matching & Scoring System:** Programmatically scores found job openings against user profiles to highlight technical fit, identifying exact credential gaps and generating optimized matching metrics.
-* **Automated Tailoring Engine:** Contextually updates and rewrites cover letters and tailors application resumes dynamically to increase response likelihood.
-* **Product Analytics Integration:** Seamlessly handles user behavior analytics using PostHog to calculate engagement conversions, funnel drop-offs, and monitor model processing states.
+> **Status:** Portfolio prototype. Some AI/browser-automation capabilities from the original product concept are planned rather than implemented in the current codebase.
 
-##  Tech Stack & Agentic Framework
-* **Framework:** Next.js (App Router, TypeScript, Tailwind CSS)
-* **Browser Automation:** Browserbase (Managed Cloud Browsers), Stagehand (Natural Language Web Actions)
-* **Product Analytics:** PostHog
-* **Development Flow:** Agentic Development System (Architect, Remember, Review, Recover, and Imprint open-source patterns)
+## ✨ Current experience
 
-##  How to Run
-1. Clone the repository: `git clone https://github.com/AyeshaK007/job_pilot.git`
-2. Install dependencies:
-## Getting Started
+- Landing page with a clear job-search workflow
+- Dashboard for managing the job search
+- Job discovery and filtering interface
+- Profile area for candidate information
+- Job/application tracking concepts
+- Match-score and AI-assisted workflow concepts
+- Responsive, product-focused interface
 
-First, run the development server:
+## 🛠️ Current tech stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **UI:** React + Tailwind CSS
+- **Backend / data SDK:** InsForge SDK
+- **Tooling:** ESLint
+
+The repository's current dependencies are intentionally reflected above; browser automation and analytics services from the earlier product concept are not presented as implemented features.
+
+## 📸 Screenshots
+
+The repository already contains visual assets used by the landing page, including dashboard, jobs-list, agent-log, and profile imagery.
+
+For a polished portfolio presentation, the recommended screenshots are:
+
+1. Landing page / hero
+2. Dashboard
+3. Find Jobs screen
+4. Job detail / match score
+5. Profile
+6. Application tracking
+
+## 🚀 Run locally
 
 ```bash
+git clone https://github.com/AyeshaK007/job_pilot.git
+cd job_pilot
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Why this project matters
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+JobPilot demonstrates product thinking as well as frontend implementation: taking a frustrating workflow and turning it into a structured application with clear navigation, reusable UI patterns, and room for future AI-powered functionality.
 
+## 👩🏻‍💻 Author
+
+**AyeshaK007** — BSCS student focused on frontend development, Python, and data-focused software.
